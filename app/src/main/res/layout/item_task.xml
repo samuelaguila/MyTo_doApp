@@ -19,6 +19,8 @@
         tools:text="item preview"
         android:layout_alignTop="@id/checkbox"
         android:layout_alignBottom="@id/checkbox"
+        android:layout_toStartOf="@id/priority_mark"
+        android:layout_toEndOf="@id/checkbox"
         android:gravity="center_vertical" />
 
     <ImageView
